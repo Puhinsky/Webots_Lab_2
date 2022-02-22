@@ -1,0 +1,148 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5142516335047005 0.5189068117070769 0.6828476976615969 1.9533951708106367
+  position 0.3093980206960051 -0.6222084176013227 0.7243257013710951
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorTileSize 0.2 0.2
+}
+WoodenBox {
+  translation -0.35 0.25 0.05
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.25 0.25 0.05
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.25 0.45 0.05
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.05 -0.05 0.05
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.15 -0.25 0.05
+  name "wooden box(5)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.05 -0.25 0.05
+  name "wooden box(25)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.35 -0.25 0.05
+  name "wooden box(6)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.35 -0.35 0.05
+  name "wooden box(7)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.35 -0.45 0.05
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.15 -0.45 0.05
+  name "wooden box(8)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.25 -0.25 0.05
+  name "wooden box(19)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.15 0.05 0.05
+  name "wooden box(9)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.45 0.05 0.05
+  name "wooden box(12)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.35 0.05 0.05
+  name "wooden box(13)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.25 0.05 0.05
+  name "wooden box(14)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.25 0.35 0.05
+  name "wooden box(15)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.05 0.25 0.05
+  name "wooden box(16)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.05 0.35 0.05
+  name "wooden box(17)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.05 0.15 0.05
+  name "wooden box(10)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.15 -0.35 0.05
+  name "wooden box(11)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.45 -0.05 0.05
+  name "wooden box(18)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.25 0.05 0.05
+  name "wooden box(20)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.15 -0.05 0.05
+  name "wooden box(21)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.35 0.15 0.05
+  name "wooden box(22)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.25 0.25 0.05
+  name "wooden box(23)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.25 0.45 0.05
+  name "wooden box(24)"
+  size 0.1 0.1 0.1
+}
+E-puck {
+  translation 0.25 -0.45 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  controller "ObstacleAvoidController"
+}
