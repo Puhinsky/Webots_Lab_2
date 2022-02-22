@@ -10,5 +10,3 @@ class RobotSensor(object):
     
     def value(self):
         return self.sensor.getValue() > self.sensivity
-
-
